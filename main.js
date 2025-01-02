@@ -1,8 +1,11 @@
-import {test_bindings} from "./test_bindings.js"
+import {testBindings} from "./test-bindings.js"
+import {testFunctions} from "./test-functions.js"
+
 
 
 function main() {
-   test_bindings()
+   testBindings()
+   testFunctions()
 }
 
 main()

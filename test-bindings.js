@@ -1,6 +1,6 @@
 export default {}
 export const num = 42
-export function test_bindings() {
+export function testBindings() {
     const str = "Hello world!"
     console.log(str)
     console.log(num)
